@@ -1,6 +1,6 @@
 
 //change fetch address
-fetch('http://127.0.0.1:5000/api/all_products')
+fetch('https://mile12db.azurewebsites.net/api/all_products')
     .then(function(response){
         //console.log(response.text());
         return response.text();
